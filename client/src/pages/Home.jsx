@@ -6,7 +6,7 @@ import Navbar from "../components/Navbar";
 import Newsletter from "../components/Newsletter";
 import Products from "../components/Products";
 import Slider from "../components/Slider";
-import Marques from '../components/marques';
+import Marques from '../components/Marques';
 
 
 
@@ -17,12 +17,10 @@ const Home = () => {
       <Navbar />
       <Slider />
       <Categories />
-      <Products />
+      <Products title="Nos nouvelles"/>
       <Marques />
       <Newsletter />  
       <Footer />
-      
-    
     </div>
   );
 };
